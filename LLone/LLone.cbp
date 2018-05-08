@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LLone" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LLone" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LLone" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/cell.h" />
+		<Unit filename="include/eliminateleft.h" />
+		<Unit filename="include/firstset.h" />
+		<Unit filename="include/follow.h" />
+		<Unit filename="include/llone.h" />
+		<Unit filename="include/program.h" />
+		<Unit filename="include/publicdata.h" />
+		<Unit filename="include/table.h" />
+		<Unit filename="src/cell.cpp" />
+		<Unit filename="src/eliminateleft.cpp" />
+		<Unit filename="src/firstset.cpp" />
+		<Unit filename="src/follow.cpp" />
+		<Unit filename="src/llone.cpp" />
+		<Unit filename="src/program.cpp" />
+		<Unit filename="src/publicdata.cpp" />
+		<Unit filename="src/table.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

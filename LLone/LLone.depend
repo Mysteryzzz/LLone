@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1524915303 source:/home/rezero/Desktop/Analyzer/LLone/LLone/src/eliminateleft.cpp
+	"eliminateleft.h"
+
+1524907664 /home/rezero/Desktop/Analyzer/LLone/LLone/include/eliminateleft.h
+	"program.h"
+	<vector>
+
+1524915726 /home/rezero/Desktop/Analyzer/LLone/LLone/include/program.h
+	<string>
+
+1525697833 source:/home/rezero/Desktop/Analyzer/LLone/LLone/src/firstset.cpp
+	"firstset.h"
+	"publicdata.h"
+	<iostream>
+
+1525692499 /home/rezero/Desktop/Analyzer/LLone/LLone/include/firstset.h
+	"program.h"
+	<vector>
+
+1525752581 /home/rezero/Desktop/Analyzer/LLone/LLone/include/publicdata.h
+	"program.h"
+	<vector>
+
+1525752613 source:/home/rezero/Desktop/Analyzer/LLone/LLone/src/llone.cpp
+	"llone.h"
+	<stack>
+	<string>
+	<algorithm>
+	"firstset.h"
+	"follow.h"
+	"publicdata.h"
+
+1525704467 /home/rezero/Desktop/Analyzer/LLone/LLone/include/llone.h
+	"table.h"
+	"program.h"
+	"eliminateleft.h"
+	<stack>
+	<vector>
+	<string>
+	<iostream>
+
+1525697598 /home/rezero/Desktop/Analyzer/LLone/LLone/include/follow.h
+	"program.h"
+	<set>
+	<vector>
+
+1524915705 source:/home/rezero/Desktop/Analyzer/LLone/LLone/src/program.cpp
+	"program.h"
+
+1525693472 source:/home/rezero/Desktop/Analyzer/LLone/LLone/src/publicdata.cpp
+	"publicdata.h"
+	"program.h"
+
+1525752965 source:/home/rezero/Desktop/Analyzer/LLone/LLone/src/table.cpp
+	"table.h"
+	"firstset.h"
+	"follow.h"
+	"publicdata.h"
+	<iomanip>
+	<iostream>
+
+1525752399 /home/rezero/Desktop/Analyzer/LLone/LLone/include/table.h
+	"cell.h"
+	<vector>
+
+1525697597 source:/home/rezero/Desktop/Analyzer/LLone/LLone/src/follow.cpp
+	"follow.h"
+	<iostream>
+	"firstset.h"
+	"publicdata.h"
+
+1525696754 source:/home/rezero/Desktop/Analyzer/LLone/LLone/src/cell.cpp
+	"cell.h"
+
+1525697336 /home/rezero/Desktop/Analyzer/LLone/LLone/include/cell.h
+	"program.h"
+
